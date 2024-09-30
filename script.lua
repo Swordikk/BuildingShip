@@ -99,7 +99,7 @@ Tab:AddTextbox({
 		_G.JumpPower = Value
 		JumpPower()
 	end
-})--]]
+})
 
 Tab:AddToggle({
 	Name = "Anti-AFK",
@@ -124,4 +124,4 @@ Tab:AddToggle({
 			end
 		end
 			end	
-})
+}) --]]
