@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Script by Swordik | ⚡ Building Ship", HidePremium = false, IntroText = "Script by Swordik for Building Ship", SaveConfig = true, IntroEnabled = true, ConfigFolder = "Scripts"}local Humanoid = game.Players.LocalPlayer.Character.Humanoid
+local Window = OrionLib:MakeWindow({Name = "Script by Swordik | ⚡ Building Ship", HidePremium = false, IntroText = "Script by Swordik for Building Ship", SaveConfig = true, IntroEnabled = true, ConfigFolder = "Scripts"}
 	
 function AutoFarm()
 while _G.AutoFarm == true do
@@ -44,8 +44,8 @@ until i == 5
 wait(9)
 end
 end
-
-local Tab = Window:MakeTab({
+	
+--[[ local Tab = Window:MakeTab({
 	Name = "Farming",
 	Icon = "rbxassetid://4483364237",
 	PremiumOnly = false
@@ -66,7 +66,6 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
---[[
 Tab:AddToggle({
 	Name = "Anti-AFK",
 	Default = false,
@@ -90,4 +89,4 @@ Tab:AddToggle({
 			end
 		end
 			end	
-}) --]]
+})
