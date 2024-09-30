@@ -77,13 +77,13 @@ Tab:AddToggle({
 
 local Tab = Window:MakeTab({
 	Name = "Misc",
-	Icon = "",
+	Icon = "rbxassetid://4483362748",
 	PremiumOnly = false
 })
 
 Tab:AddTextbox({
 	Name = "WalkSpeed",
-	Default = "",
+	Default = "16",
 	TextDisappear = false,
 	Callback = function(Value)
 		_G.WalkSpeed = Value
@@ -93,7 +93,7 @@ Tab:AddTextbox({
 
 Tab:AddTextbox({
 	Name = "JumpPower",
-	Default = "",
+	Default = "50",
 	TextDisappear = false,
 	Callback = function(Value)
 		_G.JumpPower = Value
