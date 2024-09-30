@@ -1,9 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Script by Swordik | ⚡ Building Ship", HidePremium = false, IntroText = "Script by Swordik for Building Ship", SaveConfig = true, IntroEnabled = true, ConfigFolder = "Scripts"}local Humanoid = game.Players.LocalPlayer.Character.Humanoid
-
-local HumanoidRootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
-local Humanoid = game.Players.LocalPlayer.Character.Humanoid
 	
 function AutoFarm()
 while _G.AutoFarm == true do
@@ -48,18 +45,6 @@ wait(9)
 end
 end
 
---[[ function WalkSpeed()
-	while _G.WalkSpeed do
-	    Humanoid.WalkSpeed = _G.WalkSpeed
-    end
-end
-
-function JumpPower()
-	while _G.JumpPower do
-	    Humanoid.JumpPower = _G.JumpPower
-    end
-end --]]
-
 local Tab = Window:MakeTab({
 	Name = "Farming",
 	Icon = "rbxassetid://4483364237",
@@ -81,26 +66,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
---[[Tab:AddTextbox({
-	Name = "WalkSpeed",
-	Default = "16",
-	TextDisappear = false,
-	Callback = function(Value)
-		_G.WalkSpeed = Value
-		WalkSpeed()
-	end
-})
-
-Tab:AddTextbox({
-	Name = "JumpPower",
-	Default = "50",
-	TextDisappear = false,
-	Callback = function(Value)
-		_G.JumpPower = Value
-		JumpPower()
-	end
-})
-
+--[[
 Tab:AddToggle({
 	Name = "Anti-AFK",
 	Default = false,
