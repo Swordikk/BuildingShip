@@ -1,4 +1,9 @@
-while true do
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Script by Swordik | ⚡ Building Ship", HidePremium = false, IntroText = "Script by Swordik for Building Ship", SaveConfig = true, IntroEnabled = true, ConfigFolder = "Scripts"})
+
+function AutoFarm() do
+while _G.AutoFarm == true do
 local a, b, c, d, e, f, g, h, i = 0, 0, 0, 0, 0, 0, 0, 0, 0
 repeat a = a + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
@@ -38,3 +43,19 @@ wait(0.3)
 until i == 5
 wait(9)
 end
+end
+
+local Tab = Window:MakeTab({
+	Name = "Farming",
+	Icon = "rbxassetid://4483364237",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Auto Farm",
+	Default = false,
+	Callback = function(Value)
+		_G.AutoFarm = Value
+		AutoFarm()
+	end
+})
