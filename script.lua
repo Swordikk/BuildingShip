@@ -48,7 +48,7 @@ wait(9)
 end
 end
 
-function WalkSpeed()
+--[[ function WalkSpeed()
 	while _G.WalkSpeed do
 	    Humanoid.WalkSpeed = _G.WalkSpeed
     end
@@ -58,7 +58,7 @@ function JumpPower()
 	while _G.JumpPower do
 	    Humanoid.JumpPower = _G.JumpPower
     end
-end
+end --]]
 
 local Tab = Window:MakeTab({
 	Name = "Farming",
@@ -81,7 +81,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddTextbox({
+--[[Tab:AddTextbox({
 	Name = "WalkSpeed",
 	Default = "16",
 	TextDisappear = false,
@@ -99,7 +99,7 @@ Tab:AddTextbox({
 		_G.JumpPower = Value
 		JumpPower()
 	end
-})
+})--]]
 
 Tab:AddToggle({
 	Name = "Anti-AFK",
@@ -123,5 +123,5 @@ Tab:AddToggle({
   				end)
 			end
 		end
-	end
+			end	
 })
