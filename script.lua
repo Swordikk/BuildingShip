@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Script by Swordik | ⚡Building Ship"", HidePremium = false, IntroText = "Script by Swordik for Building Ship", SaveConfig = true, IntroEnabled = true, ConfigFolder = "Scripts"})
+local Window = OrionLib:MakeWindow({Name = "Script by Swordik | ⚡Building Ship", HidePremium = false, IntroText = "Script by Swordik for Building Ship", SaveConfig = true, IntroEnabled = true, ConfigFolder = "Scripts"})
 
 local Humanoid = game.Players.LocalPlayer.Character.Humanoid
 local HumanoidRootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
