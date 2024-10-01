@@ -77,23 +77,15 @@ Part9.Size = Vector3.new(2, 1, 2)
 Part9.CanCollide = true
 Part9.Position = Vector3.new(-51.565643310546875, 63.00004577636719, 7529.08984375)
 
-local Part10 = Instance.new("Part", game:GetService("Workspace"))
-Part10.Name = "Block"
-Part10.Anchored = true
-Part10.Transparency = 0
-Part10.Size = Vector3.new(2, 1, 2)
-Part10.CanCollide = true
-Part10.Position = Vector3.new(-51.565643310546875, 63.00004577636719, 8299.08984375)
-
 function AutoFarm()
     while _G.AutoFarm == true do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
+        HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
         wait(2.2)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
+        HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
         wait(2.2)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
+        HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
         wait(2.2)
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame
+        HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame
         wait(2.2)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame
         wait(2.2)
