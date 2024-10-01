@@ -106,9 +106,7 @@ Tab:AddToggle({
         wait(2.2)
         HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
         wait(2.2)
-        HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
-        wait(2.2)
-        HumanoidRootPart.CFrame = game.Workspace.BoatStages.OtherStager.ElectronicStage.DarknessPart.CFrame
+        HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame.
         wait(10)
 	end
 end
