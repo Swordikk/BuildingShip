@@ -10,40 +10,40 @@ while _G.AutoFarm == true do
 local a, b, c, d, e, f, g, h, i = 0, 0, 0, 0, 0, 0, 0, 0, 0
 repeat a = a + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
-wait(0.25)
-until a == 6
+wait(0.01)
+until a == 10
 repeat b = b + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
-wait(0.25)
-until b == 6
+wait(0.01)
+until b == 10
 repeat c = c + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
-wait(0.25)
-until c == 6
+wait(0.01)
+until c == 10
 repeat d = d + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame
-wait(0.25)
-until d == 6
+wait(0.01)
+until d == 10
 repeat e = e + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame
-wait(0.25)
-until e == 6
+wait(0.01)
+until e == 10
 repeat f = f + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame
-wait(0.25)
-until f == 6
+wait(0.01)
+until f == 10
 repeat g = g + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame
-wait(0.25)
-until g == 6
+wait(0.01)
+until g == 10
 repeat h = h + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame
-wait(0.25)
-until h == 6
+wait(0.01)
+until h == 10
 repeat i = i + 1
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
-wait(0.25)
-until i == 6
+wait(0.01)
+until i == 10
 wait(9)
 end
 end
