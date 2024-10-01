@@ -76,9 +76,19 @@ Part9.Transparency = 0
 Part9.Size = Vector3.new(2, 1, 2)
 Part9.CanCollide = true
 Part9.Position = Vector3.new(-51.565643310546875, 63.00004577636719, 7529.08984375)
+	
+local Tab = Window:MakeTab({
+	Name = "Farming",
+	Icon = "rbxassetid://4483364237",
+	PremiumOnly = false
+})
 
-function AutoFarm()
-    while _G.AutoFarm == true do
+Tab:AddToggle({
+	Name = "Auto Farm",
+	Default = false,
+	Callback = function(Value)
+	_G.AutoFarm = Value
+	while _G.AutoFarm == true do
         HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
         wait(2.2)
         HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
@@ -101,22 +111,8 @@ function AutoFarm()
         wait(2.2)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.OtherStager.ElectronicStage.DarknessPart.CFrame
         wait(10)
-    end
-end
-	
-local Tab = Window:MakeTab({
-	Name = "Farming",
-	Icon = "rbxassetid://4483364237",
-	PremiumOnly = false
-})
-
-Tab:AddToggle({
-	Name = "Auto Farm",
-	Default = false,
-	Callback = function(Value)
-		_G.AutoFarm = Value
-		AutoFarm()
 	end
+end
 })
 
 local Tab = Window:MakeTab({
