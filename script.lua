@@ -81,23 +81,25 @@ Part10.Position = Vector3.new(-51.565643310546875, 63.00004577636719, 8299.08984
 
 while true do
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame
-	wait(1)
+	wait(2)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame
+	wait(2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.BoatStages.OtherStager.ElectronicStage.DarknessPart.CFrame
 	wait(10)
 end
