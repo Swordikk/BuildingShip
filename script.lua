@@ -20,17 +20,16 @@ end
 function AutoFarmCube()
 	while _G.AutoFarmCube == true do wait(0.5)
 		for i, v in pairs(game:GetService("Workspace"):GetChildren()) do
-			if v.Name == "Fortune Cube" or v.Name == "Luck Cube" or
-			v.Name == "Multitude of Rain" or
-			v.Name == "Fortune of Wind" or
-			v.Name == "Silent Speed of Snow Adds 2 walkspeed" or
-			v.Name == "Wealth Cube" or
-			v.Name == "Spore Blossom" or
-			v.Name == "Golden Cube" or
-			v.Name == "Patel Cube" or
-			v.Name == "Speed Cube" or
-			v.Name == "Haste Cube" or
-			v.Name == "Glitch Cube" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Hitbox.CFrame
+			if v.Name == "Inferno Cube" or v.Name == "Technosphere" or
+			v.Name == "Stellar Nebula" or v.Name == "Event Horizon" or
+			v.Name == "Dice of life" or v.Name == "Dice of Fate" or
+			v.Name == "Multitude of Rain" or v.Name == "Fortune of Wind" or
+			v.Name == "Silence Speed of Snow" or v.Name == "Fortune Cube" or
+			v.Name == "Luck Cube" or v.Name == "Multitude of Rain" or
+			v.Name == "Fortune of Wind" or v.Name == "Silent Speed of Snow Adds 2 walkspeed" or
+			v.Name == "Wealth Cube" or v.Name == "Spore Blossom" or v.Name == "Golden Cube" or
+			v.Name == "Patel Cube" or v.Name == "Speed Cube" or
+			v.Name == "Haste Cube" or v.Name == "Glitch Cube" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Hitbox.CFrame
 			end
 		end
 	end
