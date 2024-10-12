@@ -18,7 +18,7 @@ function JumpPower()
 end
 
 function AutoFarmCube()
-	while _G.AutoFarmCube == true do wait(0.1)
+	while _G.AutoFarmCube == true do wait(0.5)
 		for i, v in pairs(game:GetService("Workspace"):GetChildren()) do
 			if v.Name == "Fortune Cube" or v.Name == "Luck Cube" or
 			v.Name == "Multitude of Rain" or
