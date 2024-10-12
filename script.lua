@@ -18,7 +18,7 @@ function JumpPower()
 end
 
 function AutoFarmCube()
-	while _G.AutoFarmCube == Value do
+	while _G.AutoFarmCube == true do
 		for i, v in pairs(game:GetService("Workspace"):GetChildren()) do
 			if v.Name == "Fortune Cube" or v.Name == "Luck Cube" or
 			v.Name == "Multitude of Rain" or
@@ -32,7 +32,7 @@ function AutoFarmCube()
 			v.Name == "Haste Cube" or
 			v.Name == "Glitch Cube" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Hitbox.CFrame
 			end
-		  end
+		end
 	end
 end
 
