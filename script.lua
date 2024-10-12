@@ -36,6 +36,12 @@ function AutoFarmCube()
 	end
 end
 
+function AutoRoll()
+	while _G.AutoRoll == true do wait(0.1)
+		game:GetService("ReplicatedStorage"):WaitForChild("RemoteFunction"):InvokeServer("Roll")
+	end
+end
+
 local Tab = Window:MakeTab({
 	Name = "AutoFarm",
 	Icon = "rbxassetid://4483362748",
@@ -48,6 +54,15 @@ Tab:AddToggle({
 	Callback = function(Value)
 		_G.AutoFarmCube = Value
 		AutoFarmCube()
+	end    
+})
+
+Tab:AddToggle({
+	Name = "AutoRoll",
+	Default = false,
+	Callback = function(Value)
+		_G.AutoRoll = Value
+		AutoRoll()
 	end    
 })
 
