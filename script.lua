@@ -28,7 +28,7 @@ function AutoFarmCube()
 			v.Name == "Luck Cube" or v.Name == "Multitude of Rain" or
 			v.Name == "Fortune of Wind" or v.Name == "Silent Speed of Snow Adds 2 walkspeed" or
 			v.Name == "Wealth Cube" or v.Name == "Spore Blossom" or v.Name == "Golden Cube" or
-			v.Name == "Patel Cube" or v.Name == "Speed Cube" or
+			v.Name == "Pastel Cube" or v.Name == "Speed Cube" or
 			v.Name == "Haste Cube" or v.Name == "Glitch Cube" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Hitbox.CFrame
 			end
 		end
